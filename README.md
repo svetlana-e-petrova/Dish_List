@@ -20,4 +20,5 @@
 - Architecture Components
     * Navigation Component
     * ViewModel
+    * View Binding
 - Hilt (Dependency Injection)

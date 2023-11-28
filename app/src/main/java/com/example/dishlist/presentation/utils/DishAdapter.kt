@@ -24,7 +24,6 @@ class DishAdapter(
             checkDishAction: (String, Boolean) -> Unit,
             transitionAction: (Dish, View) -> Unit
         ) {
-            adapterPosition
             view.populate(item, checkDishAction, transitionAction)
         }
     }
