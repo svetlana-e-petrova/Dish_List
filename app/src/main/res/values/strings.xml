@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dish List</string>
+    <string name="price_placeholder">%1$d ₽</string>
+    <string name="loading_dish_list_error">Произошла ошибка при загрузке списка.</string>
+    <string name="dish_list_fragment_label">Список блюд</string>
+    <string name="dish_details_fragment_label"></string>
+    <string name="delete_button_text">Удалить</string>
+    <string name="empty_view_text">Упс, еда закончилась(\n Обновите страницу</string>
+</resources>

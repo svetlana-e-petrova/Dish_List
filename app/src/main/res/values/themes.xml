@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DishList" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/dark_grey</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:fontFamily">sans-serif-condensed-medium</item>
+    </style>
+
+    <style name="PriceTextStyle">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+
+    <style name="DishListButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/button_background_color_selector</item>
+    </style>
+</resources>

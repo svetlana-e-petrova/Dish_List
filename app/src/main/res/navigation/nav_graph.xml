@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dishListFragment">
+
+    <fragment
+        android:id="@+id/dishListFragment"
+        android:label="@string/dish_list_fragment_label"
+        android:name="com.example.dishlist.presentation.fragments.DishListFragment">
+        <action
+            android:id="@+id/action_dishListFragment_to_dishDetailsFragment"
+            app:destination="@id/dishDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dishDetailsFragment"
+        android:label="@string/dish_details_fragment_label"
+        android:name="com.example.dishlist.presentation.fragments.DishDetailsFragment"
+        tools:layout="@layout/fragment_dish_details">
+        <argument
+            android:name="dish"
+            app:argType="com.example.dishlist.data.Dish" />
+    </fragment>
+</navigation>
